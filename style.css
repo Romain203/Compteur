@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #4e6e5d;
+}
+
+main {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  background-color: #cfcfcf;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #4d5057;
+  letter-spacing: 2px;
+}
+
+#counter-el {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4d5057;
+}
+
+button {
+  background-color: #4d5057;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4da167;
+  color: #fff;
+  opacity: 0.8;
+}
+
+#save-btn {
+  background-color: #4da167;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background-color: #4d5057;
+  color: #fff;
+  opacity: 0.8;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4d5057;
+  text-align: center;
+}
